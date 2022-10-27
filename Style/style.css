@@ -372,6 +372,7 @@ color: linear-gradient(to bottom, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firef
 .enlaces-autos{
   grid-area: footer;
   width: 100%;
+  height: 10vh;
   
 }
 
