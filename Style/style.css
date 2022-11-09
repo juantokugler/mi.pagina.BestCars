@@ -653,13 +653,13 @@ form{
   height: 80vh;
 }
 .container{
-  display: flex;
+    display: flex;
   justify-content: center;
   align-content: center;
   border: none;
 }
 .card{
-  padding: 12%;
+  padding: 5%;
   color: white;
   margin-top: 10%;
   display: flex;
