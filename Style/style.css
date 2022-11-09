@@ -642,7 +642,7 @@ background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, 
 /*contactanos*/
 .main-contactanos{
   width: 100%;
-  height: 80vh;
+  height: 70vh;
 }
 legend{
   text-transform: uppercase;
