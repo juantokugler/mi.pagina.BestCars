@@ -519,7 +519,7 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
    box-shadow: 7px 7px 15px #a21;
    background-color: none;
    margin-top: 3%;
-   width: 40%;
+   width: 43%;
    height: 23%;
    transition: height 1s;
    margin-right: 10px;
@@ -562,6 +562,7 @@ background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25,
 background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 10vh;
 }
+/*modelos*/
  .pelota1{
   width: 50%;
 }
@@ -602,7 +603,169 @@ background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, 
 .gg-instagram{
   margin-left: 20px;
 }
+/* sobre nosotros*/
+.main-nosotros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:150px;
+  margin: 0;
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+}
+.main-nosotros__h1{
+  font-family: abyssinica SIL;
+  color: #a21;
+  padding-left: 0;
+  font-size: 40px;
+}
+.main-nosotros__container{
+  padding: 4%;
+  margin-top: 2.8%;
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: none;
+  box-shadow: 10px 10px 32px #a21, 
+  -10px -10px 32px #a21;
+}
+.nosotros-h4{
+  font-size: 30px;
+  color: #a21;
+}
+.nosotros-p{
+  font-size: 12.5px;
+}
+/*contactanos*/
+.main-contactanos{
+  width: 100%;
+  height: 80vh;
+}
+legend{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+form{
+  height: 80vh;
+}
+.container{
+  padding: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: none;
+}
+.card{
+  padding: 12%;
+  color: white;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  width: 300px;
+  flex-direction: column;
+  gap: 35px;
+  border-radius: 15px;
+  background: black;
+  box-shadow: 16px 16px 32px #a21,
+  -16px -16px 32px #a21;
+}
+.inputBox{
+position: relative;
+width: 250px;
+}
+.inputBox input{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transition: 0.1s;
+}
+.inputBox span{
+  margin-top: 5px;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+}
 
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+  transform: translateX(113px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px;
+  background: #a21;
+  letter-spacing: 0.2em;
+  color: white;
+  border: 2px;
+}
+.inputBox input:valid,
+.inputBox input:focus {
+  border: 2px solid white;
+}
+/*autos*/
+.nissanimg{
+ height: 47%;
+ width: 100%;
+}
+.interior{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nissan-motor__img{
+  margin-top: 20%;
+height: 200px;
+}
+.nissan-h4{
+  padding: 40px;
+  width: 200%;
+  padding: 2%;
+  background-color: rgb(216, 215, 215);
+  color: #000000;
+font-size: 30px;
+}
+.nissan-p{
+  margin-top: 5%;
+font-family: Abyssinica SIL;
+font-size: 15px;
+width: 330px;
+}
+.n-p{
+  margin-top: 5%;
+  font-family: Abyssinica SIL;
+  font-size: 16px;
+}
+.n-h4{
+  color: #000000;
+  background-color: rgb(216, 215, 215);
+  margin-top: 3%;
+  font-size: 20px;
+}
+.icons{
+  width: 90%;
+  height: 80%;
+}
+.aston{
+  margin-left: 16px;
+  width: 70%;
+  height: 70%;
+}
 }
 @media screen and (min-width:430px) and (max-width:575px){
   .logo{
