@@ -520,14 +520,11 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
    background-color: none;
    margin-top: 3%;
    width: 43%;
-   height: 23%;
+   height: 32%;
    transition: height 1s;
    margin-right: 10px;
    margin-left: 10px;
    overflow: scroll;
- }
- .card-auto:hover{
-   height: 32%;
  }
  .img-p{
   font-size: 2vh;
@@ -631,6 +628,7 @@ background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, 
   background-color: none;
   box-shadow: 10px 10px 32px #a21, 
   -10px -10px 32px #a21;
+  margin-bottom: 100px;
 }
 .nosotros-h4{
   font-size: 30px;
