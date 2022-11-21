@@ -1,0 +1,485 @@
+@media screen and (max-width:429px) {
+	.main-index {
+		height: 80vh;
+		background-color: $background-color_3;
+	}
+	.main-grid {
+		display: grid;
+		grid-template-areas: "arriba" "abajo";
+	}
+	.section-img {
+		grid-area: arriba;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		background-color: $background-color_4;
+	}
+	.aside {
+		grid-area: abajo;
+		background-color: $background-color_4;
+		height: 100%;
+		width: 100%;
+	}
+	.article-aside {
+		overflow: visible;
+		padding-left: 10%;
+		margin-top: 5px;
+		height: 100%;
+		background-color: $background-color_4;
+		flex-direction: row;
+		height: 100%;
+	}
+	.aside-img {
+		margin: 1%;
+		height: 60%;
+		width: 28%;
+		box-shadow: 2px 2px 8px white;
+	}
+	.article-aside__h2 {
+		font-size: 30px;
+		margin-left: 25%;
+	}
+	.article-aside__p {
+		font-size: 15px;
+		font-family: $font-family_2;
+	}
+	.p2 {
+		margin-left: 35%;
+		font-size: 10px;
+	}
+	.img {
+		width: 100%;
+		height: 26vh;
+	}
+	.card-auto {
+		border: solid 1px white;
+		border-radius: 5px;
+		box-shadow: 7px 7px 15px #a21;
+		background-color: $background-color_4;
+		margin-top: 3%;
+		width: 43%;
+		height: 32%;
+		transition: height 1s;
+		margin-right: 10px;
+		margin-left: 10px;
+		overflow: scroll;
+	}
+	.img-p {
+		font-size: 2vh;
+	}
+	.img2 {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.logo {
+		width: 33%;
+	}
+	.autongo {
+		font-size: 3vh;
+	}
+	.logo-img {
+		width: 25%;
+		height: 6vh;
+	}
+	.nav-link {
+		padding-right: 3px;
+	}
+	.nav-a {
+		font-size: 15px;
+		width: 100%;
+	}
+	footer {
+		background: #870000;
+		background: -webkit-linear-gradient(to top, #190A05, #870000);
+		background: linear-gradient(to bottom, #190A05, #870000);
+		height: 10vh;
+	}
+	.pelota1 {
+		width: 50%;
+	}
+	.pelota2 {
+		width: 50%;
+	}
+	.modelo1 {
+		margin-left: 27%;
+		margin-top: 40%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelo2 {
+		margin-top: 40%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelos-img {
+		height: 40%;
+		width: 100%;
+	}
+	.menu-vertical {
+		font-size: 16px;
+		margin: 0;
+		height: 150%;
+		width: 30%;
+	}
+	.sub-li {
+		width: 100%;
+	}
+	.footer-section {
+		margin-left: 15%;
+		font-size: 1.2em;
+	}
+	.footer-logos {
+		margin-left: 15%;
+	}
+	.gg-instagram {
+		margin-left: 20px;
+	}
+	.main-nosotros {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		height: 150px;
+		margin: 0;
+		height: 80vh;
+		width: 100vw;
+		background-color: $background-color_3;
+	}
+	.main-nosotros__h1 {
+		font-family: $font-family_3;
+		color: $color_3;
+		padding-left: 0;
+		font-size: 40px;
+	}
+	.main-nosotros__container {
+		padding: 4%;
+		margin-top: 2.8%;
+		width: 90vw;
+		height: 70vh;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		background-color: $background-color_4;
+		box-shadow: 10px 10px 32px #a21, -10px -10px 32px #a21;
+		margin-bottom: 100px;
+	}
+	.nosotros-h4 {
+		font-size: 30px;
+		color: $color_3;
+	}
+	.nosotros-p {
+		font-size: 12.5px;
+	}
+	.main-contactanos {
+		width: 100%;
+		height: 70vh;
+	}
+	legend {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: $color_1;
+	}
+	form {
+		height: 80vh;
+	}
+	.container {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		border: none;
+	}
+	.card {
+		padding: 5%;
+		color: $color_1;
+		margin-top: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 350px;
+		width: 300px;
+		flex-direction: column;
+		gap: 35px;
+		border-radius: 15px;
+		background: black;
+		box-shadow: 16px 16px 32px #a21, -16px -16px 32px #a21;
+	}
+	.inputBox {
+		position: relative;
+		width: 250px;
+		input {
+			width: 100%;
+			padding: 10px;
+			outline: none;
+			border: none;
+			color: $color_1;
+			font-size: 1em;
+			background: transparent;
+			border-left: 2px solid white;
+			border-bottom: 2px solid white;
+			transition: 0.1s;
+			&:valid~span {
+				transform: translateX(113px) translateY(-15px);
+				font-size: 0.8em;
+				padding: 5px;
+				background: #a21;
+				letter-spacing: 0.2em;
+				color: $color_1;
+				border: 2px;
+			}
+			&:focus~span {
+				transform: translateX(113px) translateY(-15px);
+				font-size: 0.8em;
+				padding: 5px;
+				background: #a21;
+				letter-spacing: 0.2em;
+				color: $color_1;
+				border: 2px;
+			}
+			&:valid {
+				border: 2px solid white;
+			}
+			&:focus {
+				border: 2px solid white;
+			}
+		}
+		span {
+			margin-top: 5px;
+			left: 0;
+			transform: translateY(-4px);
+			margin-left: 10px;
+			padding: 10px;
+			pointer-events: none;
+			font-size: 12px;
+			color: $color_1;
+			text-transform: uppercase;
+			transition: 0.5s;
+			letter-spacing: 3px;
+		}
+	}
+	.nissanimg {
+		height: 47%;
+		width: 100%;
+	}
+	.interior {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nissan-motor__img {
+		margin-top: 20%;
+		height: 200px;
+	}
+	.nissan-h4 {
+		padding: 40px;
+		width: 200%;
+		padding: 2%;
+		background-color: $background-color_6;
+		color: $color_4;
+		font-size: 30px;
+	}
+	.nissan-p {
+		margin-top: 5%;
+		font-family: $font-family_4;
+		font-size: 15px;
+		width: 330px;
+	}
+	.n-p {
+		margin-top: 5%;
+		font-family: $font-family_4;
+		font-size: 16px;
+	}
+	.n-h4 {
+		color: $color_4;
+		background-color: $background-color_6;
+		margin-top: 3%;
+		font-size: 20px;
+	}
+	.icons {
+		width: 90%;
+		height: 80%;
+	}
+	.aston {
+		margin-left: 16px;
+		width: 70%;
+		height: 70%;
+	}
+}
+@media screen and (min-width:430px) and (max-width:575px) {
+	.logo {
+		width: 35%;
+	}
+	.autongo {
+		font-size: 4vh;
+	}
+	.logo-img {
+		width: 25%;
+		height: 6vh;
+	}
+	.nav-link {
+		padding-right: 3px;
+	}
+	.nav-a {
+		font-size: 18px;
+		width: 100%;
+	}
+	.pelota1 {
+		width: 50%;
+	}
+	.pelota2 {
+		width: 50%;
+	}
+	.modelo1 {
+		margin-left: 30%;
+		margin-top: 40%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelo2 {
+		margin-top: 40%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelos-img {
+		height: 40%;
+		width: 90%;
+	}
+	.menu-vertical {
+		font-size: 18px;
+		margin: 0;
+		height: 30%;
+		width: 20%;
+		&:hover {
+			height: 8.3rem;
+		}
+	}
+	.sub-li {
+		width: 100%;
+	}
+	.footer-section {
+		margin-left: 15%;
+		font-size: 1.2em;
+	}
+	.footer-logos {
+		margin-left: 15%;
+	}
+	.gg-instagram {
+		margin-left: 20px;
+	}
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+	.logo {
+		width: 40%;
+	}
+	.autongo {
+		font-size: 4vh;
+	}
+	.logo-img {
+		width: 25%;
+		height: 8vh;
+	}
+	.nav-link {
+		padding-right: 6px;
+	}
+	.nav-a {
+		font-size: 22px;
+		width: 100%;
+	}
+	.pelota1 {
+		width: 50%;
+	}
+	.pelota2 {
+		width: 50%;
+	}
+	.modelo1 {
+		margin-left: 20%;
+		margin-top: 30%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelo2 {
+		margin-top: 30%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelos-img {
+		height: 40%;
+		width: 100%;
+	}
+	.menu-vertical {
+		font-size: 22px;
+		margin: 0;
+		height: 40%;
+		width: 20%;
+	}
+	.sub-li {
+		width: 100%;
+	}
+	.footer-section {
+		margin-left: 25%;
+		font-size: 1.6em;
+	}
+	.footer-logos {
+		margin-left: 25%;
+	}
+	.gg-instagram {
+		margin-left: 20px;
+	}
+}
+@media screen and (min-width:769px) and (max-width: 992px) {
+	.logo {
+		width: 40%;
+	}
+	.autongo {
+		font-size: 5vh;
+	}
+	.logo-img {
+		width: 30%;
+		height: 8vh;
+	}
+	.nav-link {
+		padding-right: 6px;
+	}
+	.nav-a {
+		font-size: 30px;
+		width: 100%;
+	}
+	.pelota1 {
+		width: 50%;
+	}
+	.pelota2 {
+		width: 50%;
+	}
+	.modelo1 {
+		margin-left: 20%;
+		margin-top: 30%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelo2 {
+		margin-top: 30%;
+		width: 70%;
+		height: 70%;
+	}
+	.modelos-img {
+		height: 40%;
+		width: 100%;
+	}
+	.menu-vertical {
+		font-size: 22px;
+		margin: 0;
+		height: 40%;
+		width: 20%;
+	}
+	.sub-li {
+		width: 100%;
+	}
+	.footer-section {
+		margin-left: 25%;
+		font-size: 1.6em;
+	}
+	.footer-logos {
+		margin-left: 25%;
+	}
+	.gg-instagram {
+		margin-left: 20px;
+	}
+}

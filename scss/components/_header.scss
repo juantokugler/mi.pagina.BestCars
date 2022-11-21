@@ -1,0 +1,81 @@
+a {
+	text-decoration: none;
+	color: $color_1;
+	&:hover {
+		color: $color_2;
+	}
+}
+header {
+	position: sticky;
+	top: 0px;
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	background: #870000;
+	background: -webkit-linear-gradient(to top, #190A05, #870000);
+	background: linear-gradient(to top, #190A05, #870000);
+	align-items: center;
+	padding-right: 15px;
+}
+.autongo {
+	text-shadow: 2px 2px 4px black;
+	align-items: center;
+	font-size: 10vh;
+	&:hover {
+		color: $color_2;
+		text-shadow: 2px 2px 4px white;
+	}
+}
+.logo {
+	display: flex;
+	align-items: center;
+	width: 50%;
+}
+.logo-img {
+	margin-right: 5px;
+	height: 70px;
+	padding: 0px;
+}
+.nav-link {
+	display: inline-block;
+	font-size: 3.4vh;
+	padding-right: 20px;
+}
+.nav-a {
+	color: $color_1;
+}
+.menu-vertical {
+	overflow: scroll;
+	margin: 0;
+	color: $color_1;
+	position: absolute;
+	display: none;
+	list-style: none;
+	height: 40%;
+	transition: height 1s;
+	width: 20%;
+	background-color: $background-color_1;
+	&:hover {
+		height: 13rem;
+	}
+}
+.menu-horizontal {
+	li {
+		&:hover {
+			.menu-vertical {
+				display: block;
+			}
+		}
+	}
+}
+.sub-li {
+	display: inline-block;
+	width: 100%;
+}
+.sub-a {
+	width: 100%;
+	color: $color_1;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}

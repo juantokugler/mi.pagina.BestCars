@@ -1,0 +1,403 @@
+$color_1: white;
+$color_2: black;
+$color_3: #a21;
+$color_4: #000000;
+$color_5: #833ab4;
+$color_6: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+$color_7: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+$color_8: #00c6ff;
+$color_9: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
+$color_10: linear-gradient(to bottom, #0072ff, #00c6ff);
+$font-family_1: bebas neue;
+$font-family_2: Arial, Helvetica, sans-serif;
+$font-family_3: abyssinica SIL;
+$font-family_4: Abyssinica SIL;
+$background-color_1: rgba(0, 0, 0, .5);
+$background-color_2: rgb(255, 255, 255);
+$background-color_3: black;
+$background-color_4: none;
+$background-color_5: transparent;
+$background-color_6: rgb(216, 215, 215);
+
+/* movile responsive*/
+/* main*/
+/* Footer y header*/
+/*modelos*/
+/* sobre nosotros*/
+/*contactanos*/
+/*autos*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+.main-index {
+	overflow: scroll;
+	height: 80vh;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: $background-color_3;
+}
+
+.main-grid {
+	background-color: $background-color_4;
+	display: flex;
+}
+.aside {
+	background-color: $background-color_4;
+	width: 20%;
+}
+.article-aside {
+	margin-top: 5px;
+	height: 40rem;
+	background-color: $background-color_4;
+	overflow: scroll;
+}
+.article-aside__h2 {
+	font-size: 30px;
+}
+.article-aside__p {
+	font-size: 15px;
+	font-family: $font-family_2;
+}
+.p2 {
+	font-size: 10px;
+	font-size: 1.8vh;
+}
+.img {
+	width: 100%;
+	height: 200px;
+}
+.card-auto {
+	border: solid 1px white;
+	border-radius: 5px;
+	box-shadow: 7px 7px 15px #a21;
+	background-color: $background-color_4;
+	margin-top: 3%;
+	width: 27%;
+	height: 30%;
+	transition: height 1s;
+	margin-right: 10px;
+	margin-left: 10px;
+	overflow: scroll;
+	&:hover {
+		height: 45%;
+	}
+}
+.section-img {
+	background-color: $background-color_4;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: $background-color_4;
+	width: 100%;
+}
+.img2 {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.main-nosotros {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 150px;
+	margin: 0;
+	height: 80vh;
+	width: 100vw;
+	background-color: $background-color_3;
+}
+.main-nosotros__h1 {
+	font-family: $font-family_3;
+	color: $color_3;
+	padding-left: 27%;
+	font-size: 4em;
+}
+.main-nosotros__container {
+	margin-top: 2.8%;
+	width: 70vw;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: $background-color_4;
+	box-shadow: 10px 10px 32px #a21, -10px -10px 32px #a21;
+}
+.nosotros-h4 {
+	font-size: 2em;
+	color: $color_3;
+}
+legend {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: $color_1;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border: none;
+}
+.card {
+	color: $color_1;
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 350px;
+	width: 300px;
+	flex-direction: column;
+	gap: 35px;
+	border-radius: 15px;
+	background: black;
+	box-shadow: 16px 16px 32px #a21, -16px -16px 32px #a21;
+}
+.inputBox {
+	position: relative;
+	width: 250px;
+	input {
+		width: 100%;
+		padding: 10px;
+		outline: none;
+		border: none;
+		color: $color_1;
+		font-size: 1em;
+		background: transparent;
+		border-left: 2px solid white;
+		border-bottom: 2px solid white;
+		transition: 0.1s;
+		&:valid~span {
+			transform: translateX(113px) translateY(-15px);
+			font-size: 0.8em;
+			padding: 5px;
+			background: #a21;
+			letter-spacing: 0.2em;
+			color: $color_1;
+			border: 2px;
+		}
+		&:focus~span {
+			transform: translateX(113px) translateY(-15px);
+			font-size: 0.8em;
+			padding: 5px;
+			background: #a21;
+			letter-spacing: 0.2em;
+			color: $color_1;
+			border: 2px;
+		}
+		&:valid {
+			border: 2px solid white;
+		}
+		&:focus {
+			border: 2px solid white;
+		}
+	}
+	span {
+		margin-top: 5px;
+		left: 0;
+		transform: translateY(-4px);
+		margin-left: 10px;
+		padding: 10px;
+		pointer-events: none;
+		font-size: 12px;
+		color: $color_1;
+		text-transform: uppercase;
+		transition: 0.5s;
+		letter-spacing: 3px;
+	}
+}
+.nashe {
+	color: $color_1;
+	height: 45px;
+	width: 100px;
+	border-radius: 5px;
+	border: 2px solid white;
+	cursor: pointer;
+	background-color: $background-color_5;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+.main-contactanos {
+	width: 100%;
+	height: 80vh;
+}
+.img-p {
+	font-size: 3vh;
+}
+.aside-img {
+	width: 17vw;
+	height: 17vh;
+	margin-bottom: 4vh;
+	margin-top: 3vh;
+	box-shadow: 5px 5px 20px white;
+}
+.main-mym {
+	background-color: $background-color_3;
+	height: 80vh;
+}
+.nissan-body {
+	background-color: $background-color_3;
+	color: $color_1;
+}
+.nissan-container {
+	display: grid;
+	grid-template-areas: "principal" "segundo" "footer";
+	grid-template-columns: 100%;
+	grid-template-rows: 60vh 90vh 10vh;
+}
+.nissanimg {
+	padding: 1%;
+	width: 60%;
+	height: 100%;
+}
+.interior {
+	grid-area: principal;
+	display: flex;
+	background-color: $background-color_4;
+	width: 100%;
+	height: 100%;
+}
+.nissan-div {
+	padding: 1%;
+	height: 250px;
+	margin-top: 7%;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 40%;
+}
+.nissan-h4 {
+	width: 72%;
+	padding: 2%;
+	background-color: $background-color_6;
+	color: $color_4;
+	font-size: 40px;
+}
+.nissan-p {
+	font-family: $font-family_4;
+	font-size: 20px;
+}
+.n-p {
+	font-family: $font-family_4;
+	font-size: 20px;
+}
+.n-h4 {
+	font-size: 40px;
+}
+.nissan-motor {
+	grid-area: segundo;
+	width: 100%;
+	background-color: $background-color_4;
+	height: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+.div-motor {
+	width: 45%;
+	height: 100%;
+}
+.nissan-motor__img {
+	width: 100%;
+	height: 60%;
+}
+.div-escape {
+	width: 45%;
+	height: 100%;
+}
+.footer-img {
+	width: 20px;
+	height: 20px;
+	margin-left: 3%;
+}
+.footer-section {
+	margin-left: 40%;
+	font-size: 1.5em;
+}
+.footer-logos {
+	display: flex;
+	margin-left: 40%;
+}
+.gg-instagram {
+	margin-left: 20px;
+	&:hover {
+		color: $color_5;
+		color: $color_6;
+		color: $color_7;
+	}
+}
+body {
+	background-color: $background-color_3;
+}
+.gg-twitter {
+	&:hover {
+		color: $color_8;
+		color: $color_9;
+		color: $color_10;
+	}
+}
+.enlaces-autos {
+	grid-area: footer;
+	width: 100%;
+	height: 10vh;
+}
+.icons-ul {
+	margin-top: 3%;
+	background-color: $background-color_6;
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	list-style: none;
+}
+.icons {
+	margin-top: 10%;
+	height: 80%;
+	width: 80%;
+}
+.aston {
+	margin-top: 8%;
+	height: 70%;
+	width: 70%;
+}
+.modelos-main {
+	background: #000000;
+	background: -webkit-linear-gradient(to left, #434343, #000000);
+	background: linear-gradient(to left, #434343, #000000);
+	display: flex;
+	flex-wrap: wrap;
+	height: 80vh;
+}
+.pelota1 {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.pelota2 {
+	width: 50%;
+}
+.modelo1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.modelo2 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.modelos-img {
+	top: 28%;
+	left: 10%;
+	border-radius: 50%;
+	position: relative;
+	width: 80%;
+	height: 50%;
+	transition: border-radius 2s;
+	&:hover {
+		border-radius: 10%;
+	}
+}
